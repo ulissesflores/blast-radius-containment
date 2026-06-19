@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Blast-Radius Containment: a reproducible Monte Carlo model of ransomware lateral propagation under Zero Trust microsegmentation"
+abstract: >-
+  A standalone, deterministic Monte Carlo model that quantifies the blast radius
+  (fraction of hosts encrypted) of ransomware lateral propagation, and how Zero
+  Trust microsegmentation (default-deny east-west) combined with behavioral
+  detection (shorter detection window) contains it. Motivated by the 2024
+  Change Healthcare ransomware incident.
+type: software
+version: "1.0.0"
+date-released: "2026-06-19"
+authors:
+  - given-names: "Carlos Ulisses"
+    family-names: "Flores"
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    affiliation: "Codex Hash Research Laboratory, Codex Hash Ltda., Brazil"
+license: Apache-2.0
+keywords:
+  - ransomware
+  - blast radius
+  - zero trust
+  - microsegmentation
+  - lateral movement
+  - Monte Carlo
+  - reproducibility

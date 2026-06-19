@@ -1,0 +1,17 @@
+{
+  "title": "Blast-Radius Containment: a reproducible Monte Carlo model of ransomware lateral propagation under Zero Trust microsegmentation",
+  "upload_type": "software",
+  "description": "Standalone, deterministic Monte Carlo model quantifying the blast radius of ransomware lateral propagation and its containment by Zero Trust microsegmentation (default-deny east-west) plus behavioral detection. Motivated by the 2024 Change Healthcare ransomware incident. Deterministic (fixed seeds) with a SHA-256 chain-of-truth and a self-contained Colab replication notebook.",
+  "version": "1.0.0",
+  "language": "eng",
+  "license": "Apache-2.0",
+  "keywords": ["ransomware", "blast radius", "zero trust", "microsegmentation",
+               "lateral movement", "Monte Carlo", "reproducibility", "NIST SP 800-207"],
+  "creators": [
+    {
+      "name": "Flores, Carlos Ulisses",
+      "orcid": "0000-0002-6034-7765",
+      "affiliation": "Codex Hash Research Laboratory, Codex Hash Ltda., Brazil"
+    }
+  ]
+}

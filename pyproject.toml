@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blast-radius-containment"
+version = "1.0.0"
+description = "Monte Carlo model of ransomware lateral propagation and its containment by Zero Trust microsegmentation and behavioral detection."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Carlos Ulisses Flores" }]
+keywords = ["ransomware", "blast-radius", "zero-trust", "microsegmentation",
+            "lateral-movement", "monte-carlo", "reproducibility"]
+dependencies = ["numpy>=1.26", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
