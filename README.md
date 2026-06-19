@@ -59,8 +59,12 @@ python make_provenance.py      # writes output/provenance.json + output/hash-cha
 #    (deterministic seeds → bit-identical output).
 ```
 
-> If any source or result changes, `output/provenance.json:chain_hash` changes.
-> The chain is the single source of truth for an audit.
+> `chain_hash` is computed over the **source code** and the **numeric results**
+> (`results.json`/`raw_replicas.jsonl`), both bit-reproducible from the fixed
+> seed — so re-running on **any machine with a compatible numpy yields the same
+> `chain_hash`**. Environment, git commit and figure-PNG hashes are recorded as
+> *informational* (they vary by machine/toolchain) and are **not** folded into
+> the hash. The chain is the single source of truth for an audit.
 
 ## Layout
 
