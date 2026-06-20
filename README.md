@@ -4,7 +4,7 @@
 
 **A reproducible Monte Carlo model of ransomware lateral propagation and its containment by Zero Trust microsegmentation and behavioral detection.**
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20769939-blue.svg)](https://doi.org/10.5281/zenodo.20769939)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -165,8 +165,9 @@ blast-radius-containment/
 ## Citation
 
 > [!NOTE]
-> The DOI is minted on the first public release; replace `XXXXXXX` below and in
-> the badge with the Zenodo identifier. Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
+> The badge uses the **concept DOI** (`10.5281/zenodo.20769939`) — it always resolves to the
+> latest version. To cite this exact release, use the **version DOI** below
+> (`10.5281/zenodo.20769940`, v1.0.0). Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
 
 ```bibtex
 @software{flores_blast_radius_containment_2026,
@@ -177,8 +178,8 @@ blast-radius-containment/
   year         = {2026},
   publisher    = {Zenodo},
   version      = {1.0.0},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX},
+  doi          = {10.5281/zenodo.20769940},
+  url          = {https://doi.org/10.5281/zenodo.20769940},
   orcid        = {0000-0002-6034-7765}
 }
 ```

@@ -9,14 +9,16 @@ abstract: >-
   Change Healthcare ransomware incident.
 type: software
 version: "1.0.0"
-date-released: "2026-06-19"
+date-released: "2026-06-20"
 repository-code: "https://github.com/ulissesflores/blast-radius-containment"
 url: "https://github.com/ulissesflores/blast-radius-containment"
-# After minting the Zenodo DOI for v1.0.0, uncomment and fill:
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX
-#     description: Concept DOI (all versions)
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20769939
+    description: Concept DOI (all versions; always resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.20769940
+    description: Version DOI (this release, v1.0.0)
 authors:
   - given-names: "Carlos Ulisses"
     family-names: "Flores"
